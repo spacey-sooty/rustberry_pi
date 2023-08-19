@@ -2,7 +2,10 @@
 b = "build"
 br = "build --release"
 
+[build]
+target = "armv7a-none-eabi"
+
 [profile.release]
-lto = true
 strip = "debuginfo"
+lto = true
 
