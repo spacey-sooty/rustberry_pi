@@ -1,2 +1,2 @@
-# Raspberry Pi using *baremetal* Rust code 
-
+Raspberry Pi using *baremetal* Rust code 
+========================================

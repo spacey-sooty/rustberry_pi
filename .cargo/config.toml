@@ -1,11 +1,6 @@
-[alias]
-b = "build"
-br = "build --release"
-
 [build]
 target = "armv7a-none-eabi"
 
 [profile.release]
 strip = "debuginfo"
 lto = true
-

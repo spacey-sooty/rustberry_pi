@@ -16,5 +16,4 @@ jobs:
     - name: Install Target
       run: rustup target add armv7a-none-eabi
     - name: Build
-      run: cargo build --release 
-
+      run: cargo build --verbose
